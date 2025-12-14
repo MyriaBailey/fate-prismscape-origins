@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+        "fate_prismscape:servant/mana/efficiency/decent"
+    ],
     "icon": {
         "id": "minecraft:wooden_sword"
     },

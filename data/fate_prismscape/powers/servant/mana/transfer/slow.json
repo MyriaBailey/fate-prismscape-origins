@@ -1,0 +1,50 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 800,
+    "entity_action": {
+        "type": "origins:action_on_entity_set",
+        "set": "fate_prismscape:servant/contract/contracts",
+        "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function fate_prismscape:mana/operation/subtract_1"
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function fate_prismscape:mana/operation/add_1"
+                    }
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:xp_points",
+                        "comparison": ">",
+                        "compare_to": 0
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "mats_origins:master",
+                        "layer": "mats_origins:master_legend"
+                    }
+                ]
+            }
+        }
+    },
+    "condition": {
+        "type": "origins:predicate",
+        "predicate": "fate_prismscape:relative_mana/high"
+    },
+    "name": "Slow Mana Transfer"
+}

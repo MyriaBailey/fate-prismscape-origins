@@ -1,10 +1,9 @@
 {
     "type": "origins:action_over_time",
-    "interval": 3840,
+    "interval": 2000,
     "entity_action": {
-        "type": "origins:change_resource",
-        "resource": "fate_prismscape:servant/mana/mana_total",
-        "change": -1
+        "type": "origins:execute_command",
+        "command": "function fate_prismscape:mana/operation/subtract_min"
     },
     "condition": {
         "type": "origins:power_active",

@@ -1,10 +1,9 @@
 {
     "type": "origins:action_over_time",
-    "interval": 3000,
+    "interval": 1500,
     "entity_action": {
-        "type": "origins:change_resource",
-        "resource": "fate_prismscape:servant/mana/mana_total",
-        "change": 1
+        "type": "origins:execute_command",
+        "command": "function fate_prismscape:mana/operation/add_min"
     },
     "name": "Atmospheric Mana Absorption",
     "description": "You can passively gather small amounts of mana from the atmosphere."

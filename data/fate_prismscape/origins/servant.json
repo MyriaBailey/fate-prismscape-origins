@@ -1,7 +1,23 @@
 {
     "powers": [
+        "fate_prismscape:servant/contract/contracts",
+        "fate_prismscape:servant/contract/form_contract",
+
+        "fate_prismscape:servant/mana/transfer/very_fast",
+        "fate_prismscape:servant/mana/transfer/fast",
+        "fate_prismscape:servant/mana/transfer/moderate",
+        "fate_prismscape:servant/mana/transfer/slow",
+
+        "fate_prismscape:servant/mana/consumption/passive",
+        "fate_prismscape:servant/mana/consumption/health_regen",
+        "fate_prismscape:servant/mana/consumption/basic_attack",
+
+        "fate_prismscape:servant/mana/gain/passive",
+        "fate_prismscape:servant/mana/gain/leyline",
+
         "fate_prismscape:servant/constant_exhaustion",
         "fate_prismscape:servant/exhaust_faster",
+
         "fate_prismscape:servant/spirit_form/spirit_form",
         "fate_prismscape:servant/spirit_form/health_recovery",
         "fate_prismscape:servant/spirit_form/no_exhaust",

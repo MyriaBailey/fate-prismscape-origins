@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "fate_prismscape:servant/mana/efficiency/good"
+    ],
+    "icon": {
+        "id": "minecraft:writable_book"
+    },
+    "impact": 1,
+    "name": "Scheherazade",
+    "description": "The storyteller of a thousand and one nights."
+}

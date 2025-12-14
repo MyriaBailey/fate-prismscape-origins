@@ -1,5 +1,7 @@
 {
     "powers": [
+        "fate_prismscape:servant/mana/efficiency/bad",
+        
         "fate_prismscape:servants/vritra/winter_strength",
         "fate_prismscape:servants/vritra/germophobic"
     ],

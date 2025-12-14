@@ -1,9 +1,8 @@
 {
     "type": "origins:self_action_on_hit",
     "entity_action": {
-        "type": "origins:change_resource",
-        "resource": "fate_prismscape:servant/mana/mana_total",
-        "change": -1
+        "type": "origins:execute_command",
+        "command": "function fate_prismscape:mana/operation/subtract_min"
     },
     "name": "Cost of Battle",
     "description": "Engaging in battle expends magical energy."

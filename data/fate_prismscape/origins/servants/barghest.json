@@ -1,5 +1,7 @@
 {
     "powers": [
+        "fate_prismscape:servant/mana/efficiency/very_bad",
+        
         "origins:more_exhaustion"
     ],
     "icon": {

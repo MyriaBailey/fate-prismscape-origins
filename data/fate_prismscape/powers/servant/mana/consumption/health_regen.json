@@ -1,0 +1,34 @@
+{
+    "type": "action_over_time",
+    "interval": 100,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:heal",
+                "amount": 1
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "function fate_prismscape:mana/operation/subtract_moderate"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 20
+            },
+            {
+                "type": "origins:predicate",
+                "predicate": "fate_prismscape:relative_mana/very_low",
+                "inverted": true
+            }
+        ]
+    },
+    "name": "Body of Magical Energy",
+    "description": "Any injury can be recovered from, so long as you have the mana to repair yourself with."
+}

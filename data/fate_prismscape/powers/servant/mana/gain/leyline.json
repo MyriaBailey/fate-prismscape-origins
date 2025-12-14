@@ -1,29 +1,27 @@
 {
     "type": "origins:action_over_time",
-    "interval": 1200,
+    "interval": 600,
     "entity_action": {
         "type": "origins:if_else_list",
         "actions": [
             {
                 "condition": {
                     "type": "origins:predicate",
-                    "predicate": "fate_prismscape:in_weak_leyline"
+                    "predicate": "fate_prismscape:in_leyline/weak"
                 },
                 "action": {
-                    "type": "origins:change_resource",
-                    "resource": "fate_prismscape:servant/mana/mana_total",
-                    "change": 1
+                    "type": "origins:execute_command",
+                    "command": "function fate_prismscape:mana/operation/add_min"
                 }
             },
             {
                 "condition": {
                     "type": "origins:predicate",
-                    "predicate": "fate_prismscape:in_strong_leyline"
+                    "predicate": "fate_prismscape:in_leyline/strong"
                 },
                 "action": {
-                    "type": "origins:change_resource",
-                    "resource": "fate_prismscape:servant/mana/mana_total",
-                    "change": 2
+                    "type": "origins:execute_command",
+                    "command": "function fate_prismscape:mana/add_small"
                 }
             }
         ]
