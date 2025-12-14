@@ -1,0 +1,5 @@
+{
+    "condition": "location_check",
+    "entity": "this",
+    "structures": "fate_prismscape:leylines/strong_leylines"
+}

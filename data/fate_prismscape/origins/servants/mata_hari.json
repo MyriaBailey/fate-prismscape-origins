@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "fate_prismscape:servants/mata_hari/charm_target",
+        "fate_prismscape:servant/mana/mana_total",
+        "fate_prismscape:servant/mana/passive_mana_cost",
+        "fate_prismscape:servant/mana/passive_mana_gain",
+        "fate_prismscape:servant/mana/attacking_mana_cost",
+        "fate_prismscape:servant/mana/leyline_mana_gain",
+        "fate_prismscape:servant/mana/health_regen_cost"
+    ],
+    "icon": {
+        "id": "minecraft:sunflower"
+    },
+    "impact": 1,
+    "name": "Mata Hari",
+    "description": "The girl with sunny eyes."
+}

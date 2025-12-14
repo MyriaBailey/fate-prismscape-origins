@@ -1,0 +1,25 @@
+{
+    "powers": [
+        "fate_prismscape:servant/constant_exhaustion",
+        "fate_prismscape:servant/exhaust_faster",
+        "fate_prismscape:servant/spirit_form/spirit_form",
+        "fate_prismscape:servant/spirit_form/health_recovery",
+        "fate_prismscape:servant/spirit_form/no_exhaust",
+        "fate_prismscape:servant/spirit_form/invisibility",
+        "fate_prismscape:servant/spirit_form/phased_out",
+        "fate_prismscape:servant/spirit_form/invulnerable",
+        "fate_prismscape:servant/spirit_form/phasing",
+        "fate_prismscape:servant/spirit_form/spirit_overlay",
+        "fate_prismscape:servant/spirit_form/shimmer",
+        "fate_prismscape:servant/spirit_form/detect_entities",
+        "fate_prismscape:servant/spirit_form/quiet",
+        "fate_prismscape:servant/spirit_form/creative_flight"
+    ],
+    "icon": {
+        "id": "minecraft:nether_star"
+    },
+    "impact": 2,
+    "order": 3,
+    "name": "Servant",
+    "description": "A Heroic Spirit of legend."
+}

@@ -1,0 +1,21 @@
+{
+    "order": 1,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "fate_prismscape:servant",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "fate_prismscape:servants/none",
+                "fate_prismscape:servants/barghest",
+                "fate_prismscape:servants/vritra",
+                "fate_prismscape:servants/mata_hari"
+            ]
+        }
+    ],
+    "name": "Legend",
+    "missing_name": "None",
+    "missing_description": "You currently haven't selected a Legend."
+}
