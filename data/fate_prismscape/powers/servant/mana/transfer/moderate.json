@@ -34,9 +34,8 @@
                         "compare_to": 0
                     },
                     {
-                        "type": "origins:origin",
-                        "origin": "mats_origins:master",
-                        "layer": "mats_origins:master_legend"
+                        "type": "origins:predicate",
+                        "predicate": "fate_prismscape:is_origin/master"
                     }
                 ]
             }
