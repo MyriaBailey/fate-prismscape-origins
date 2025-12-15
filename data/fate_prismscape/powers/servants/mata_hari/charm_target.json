@@ -16,10 +16,19 @@
         "shape_type": "visual",
         "fluid_handling": "none",
         "before_action": {
-            "type": "spawn_particles",
-            "particle": "minecraft:heart",
-            "count": 8,
-            "offset_y": 1
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "spawn_particles",
+                    "particle": "minecraft:heart",
+                    "count": 8,
+                    "offset_y": 1
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function fate_prismscape:mana/operation/subtract_moderate"
+                }
+            ]
         },
         "bientity_action": {
             "type": "origins:target_action",
