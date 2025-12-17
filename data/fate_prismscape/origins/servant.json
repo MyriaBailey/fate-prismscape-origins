@@ -2,6 +2,7 @@
     "powers": [
         "fate_prismscape:servant/contract/contracts",
         "fate_prismscape:servant/contract/form_contract",
+        "fate_prismscape:servant/contract/contractor_glows",
 
         "fate_prismscape:servant/mana/transfer/very_fast",
         "fate_prismscape:servant/mana/transfer/fast",

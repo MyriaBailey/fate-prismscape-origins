@@ -1,6 +1,6 @@
 {
     "type": "origins:action_over_time",
-    "interval": 100,
+    "interval": 80,
     "entity_action": {
         "type": "origins:action_on_entity_set",
         "set": "fate_prismscape:servant/contract/contracts",
