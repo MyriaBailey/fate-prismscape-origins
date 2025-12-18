@@ -1,6 +1,7 @@
 {
     "powers": [
         "fate_prismscape:servant/contract/request_master",
+        "fate_prismscape:contract/empty_contracts",
         "fate_prismscape:servant/contract/master_glows",
 
         "fate_prismscape:servant/mana/transfer/very_fast",

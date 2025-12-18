@@ -1,0 +1,24 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:action_on_entity_set",
+                "set": "fate_prismscape:contract/masters",
+                "bientity_action": {
+                    "type": "origins:remove_from_entity_set",
+                    "set": "fate_prismscape:contract/masters"
+                }
+            },
+            {
+                "type": "origins:action_on_entity_set",
+                "set": "fate_prismscape:contract/servants",
+                "bientity_action": {
+                    "type": "origins:remove_from_entity_set",
+                    "set": "fate_prismscape:contract/servants"
+                }
+            }
+        ]
+    }
+}

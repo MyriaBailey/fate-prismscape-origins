@@ -1,5 +1,7 @@
 {
-    "powers": [],
+    "powers": [
+        "fate_prismscape:contract/empty_contracts"
+    ],
     "icon": {
         "id": "minecraft:end_crystal"
     },
