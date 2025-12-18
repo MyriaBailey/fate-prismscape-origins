@@ -1,0 +1,9 @@
+{
+    "powers": [],
+    "icon": {
+        "id": "minecraft:end_crystal"
+    },
+    "impact": 1,
+    "name": "Master",
+    "description": "You've formed a contract with a Heroic Spirit."
+}

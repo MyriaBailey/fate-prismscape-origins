@@ -1,0 +1,20 @@
+{
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:entity_set_size",
+                "set": "fate_prismscape:contract/servants",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            "origins": [
+               "fate_prismscape:master"
+            ]
+        }
+
+    ],
+    "name": "Contract Status",
+    "missing_name": "Not a Master",
+    "missing_description": "You haven't contracted with a Servant yet.",
+    "default_origin": "origins:empty"
+}

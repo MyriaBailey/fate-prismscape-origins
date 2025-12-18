@@ -1,0 +1,12 @@
+{
+    "entity_types": [
+        "minecraft:player"
+    ],
+    "powers": [
+        "fate_prismscape:contract/masters",
+        "fate_prismscape:contract/servants",
+        "fate_prismscape:contract/pending_set",
+        "fate_prismscape:contract/accept_servant",
+        "fate_prismscape:contract/cancel"
+    ]
+}

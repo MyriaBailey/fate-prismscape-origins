@@ -3,7 +3,7 @@
     "interval": 300,
     "entity_action": {
         "type": "origins:action_on_entity_set",
-        "set": "fate_prismscape:servant/contract/contracts",
+        "set": "fate_prismscape:contract/masters",
         "bientity_action": {
             "type": "origins:and",
             "actions": [

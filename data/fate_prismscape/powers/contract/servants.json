@@ -1,0 +1,43 @@
+{
+    "type": "origins:entity_set",
+    "name": "Contracts",
+    "description": "Entity set of Servants held.",
+    "action_on_add": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:actor_action",
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "tellraw @s \"You've formed a contract with a Servant!\""
+                }
+            },
+            {
+                "type": "origins:invert",
+                "action": {
+                    "type": "origins:add_to_entity_set",
+                    "set": "fate_prismscape:contract/masters"
+                }
+            }
+        ]
+    },
+    "action_on_remove": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:actor_action",
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "tellraw @s \"Your contract has faded.\""
+                }
+            },
+            {
+                "type": "origins:invert",
+                "action": {
+                    "type": "origins:remove_from_entity_set",
+                    "set": "fate_prismscape:contract/masters"
+                }
+            }
+        ]
+    }
+}

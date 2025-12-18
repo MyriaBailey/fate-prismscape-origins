@@ -1,0 +1,63 @@
+{
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_to_entity_set",
+                "set": "fate_prismscape:contract/pending_set"
+            },
+            {
+                "type": "origins:invert",
+                "action": {
+                    "type": "origins:add_to_entity_set",
+                    "set": "fate_prismscape:contract/pending_set"
+                }
+            },
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "/tellraw @s [\"\",{\"selector\":\"@p[distance=1..]\"},{\"text\":\" is wanting to form a contract with you. \"},{\"text\":\"[Accept]?\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/resource set @s fate_prismscape:contract/accept_servant 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Click to accept\"}}]"
+                }
+            },
+            {
+                "type": "origins:actor_action",
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "/tellraw @s [\"\",{\"text\":\"You've requested for \"},{\"selector\":\"@p[distance=1..]\"},{\"text\":\" to be your Master. \"},{\"text\":\"[Cancel]?\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/resource set @s fate_prismscape:contract/cancel\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Click to cancel\"}}]"
+                }
+            }
+        ]
+    },
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_entity_set",
+                "set": "fate_prismscape:contract/masters",
+                "inverted": true
+            },
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:player"
+                }
+            },
+            {
+                "type": "origins:actor_condition",
+                "condition": {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": "minecraft:book"
+                    }
+                }
+            }
+        ]
+    },
+    "name": "Form Contract",
+    "description": "Right click a player while you are both holding a book to request a contract with them."
+}
