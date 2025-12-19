@@ -29,7 +29,9 @@
         "fate_prismscape:servant/spirit_form/shimmer",
         "fate_prismscape:servant/spirit_form/detect_entities",
         "fate_prismscape:servant/spirit_form/quiet",
-        "fate_prismscape:servant/spirit_form/creative_flight"
+        "fate_prismscape:servant/spirit_form/creative_flight",
+
+        "fate_prismscape:servant/sound_on_death"
     ],
     "icon": {
         "id": "minecraft:nether_star"

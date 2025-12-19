@@ -1,0 +1,44 @@
+{
+    "type": "origins:action_on_death",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:action_on_entity_set",
+                    "set": "fate_prismscape:contract/masters",
+                    "bientity_action": {
+                        "type": "origins:remove_from_entity_set",
+                        "set": "fate_prismscape:contract/masters"
+                    }
+                },
+                {
+                    "type": "origins:action_on_entity_set",
+                    "set": "fate_prismscape:contract/servants",
+                    "bientity_action": {
+                        "type": "origins:remove_from_entity_set",
+                        "set": "fate_prismscape:contract/servants"
+                    }
+                },
+                {
+                    "type": "origins:action_on_entity_set",
+                    "set": "fate_prismscape:contract/pending_set",
+                    "bientity_action": {
+                        "type": "origins:remove_from_entity_set",
+                        "set": "fate_prismscape:contract/pending_set"
+                    }
+                }
+            ]
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:command",
+            "command": "gamerule keepInventory",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    }
+}
