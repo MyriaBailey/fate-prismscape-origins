@@ -1,7 +1,7 @@
 {
     "type": "origins:overlay",
     "hidden": true,
-    "texture": "prisms_resources:spirit_form_overlay_transparent_white",
+    "texture": "fate_prismscape:spirit_form_overlay_transparent_white",
     "strength": 0.5,
     "red": 0.0,
     "green": 0.0,
