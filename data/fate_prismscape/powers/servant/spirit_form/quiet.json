@@ -15,5 +15,6 @@
         "power": "fate_prismscape:servant/spirit_form/spirit_form"
     },
     "name": "Quiet",
-    "description": "Sculk cannot hear you in Spirit Form."
+    "description": "Sculk cannot hear you in Spirit Form.",
+	"hidden": true
 }

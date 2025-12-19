@@ -122,5 +122,6 @@
         "power": "fate_prismscape:servant/spirit_form/spirit_form"
     },
     "name": "Invulnerability",
-    "description": "Physical sources of damage cannot affect you in Spirit Form."
+    "description": "Physical sources of damage cannot affect you in Spirit Form.",
+	"hidden": true
 }

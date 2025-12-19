@@ -6,5 +6,6 @@
     "power": "fate_prismscape:servant/spirit_form/spirit_form"
   },
   "name": "Invisibility",
-  "description": "Being in Spirit Form makes you invisible to others."
+  "description": "Being in Spirit Form makes you invisible to others.",
+	"hidden": true
 }

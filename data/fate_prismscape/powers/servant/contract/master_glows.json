@@ -4,5 +4,7 @@
         "type": "origins:in_entity_set",
         "set": "fate_prismscape:contract/masters"
     },
-    "name": "Master Glows"
+    "name": "Master Glows",
+    "description": "You can always detect where your Master is.",
+    "hidden": true
 }

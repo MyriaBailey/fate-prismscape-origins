@@ -45,5 +45,7 @@
         "type": "origins:predicate",
         "predicate": "fate_prismscape:relative_mana/low"
     },
-    "name": "Fast Mana Transfer"
+    "name": "Fast Mana Transfer",
+    "description": "You absorb mana more quickly from your Master when low on mana.",
+    "hidden": true
 }

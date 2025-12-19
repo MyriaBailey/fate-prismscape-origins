@@ -32,5 +32,6 @@
 	},
 
     "name": "Phase Through Walls",
-    "description": "While in Spirit Form, you can walk through walls with ease."
+    "description": "While in Spirit Form, you can walk through walls with ease.",
+	"hidden": true
 }

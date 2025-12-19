@@ -55,5 +55,8 @@
                 }
             }
         ]
-    }
+    },
+    "name": "Cancel Contract",
+    "description": "Undo sending a contract request.",
+    "hidden": true
 }

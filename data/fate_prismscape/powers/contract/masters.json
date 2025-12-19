@@ -1,7 +1,5 @@
 {
     "type": "origins:entity_set",
-    "name": "Contracts",
-    "description": "Entity set of Masters held.",
     "action_on_add": {
         "type": "origins:and",
         "actions": [
@@ -40,5 +38,8 @@
                 }
             }
         ]
-    }
+    },
+    "name": "List of Masters",
+    "description": "An entity set containing all your contracted Masters.",
+    "hidden": true
 }

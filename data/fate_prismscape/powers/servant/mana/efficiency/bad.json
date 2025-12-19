@@ -4,5 +4,6 @@
         "type": "origins:execute_command",
         "command": "function fate_prismscape:mana/setup/mana_efficiency {level: 4}"
     },
-    "name": "Low Mana Efficiency"
+    "name": "Low Mana Efficiency",
+    "description": "You consume more mana than the average Servant normally would."
 }

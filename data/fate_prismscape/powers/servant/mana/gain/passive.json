@@ -6,5 +6,6 @@
         "command": "function fate_prismscape:mana/operation/add_min"
     },
     "name": "Atmospheric Mana Absorption",
-    "description": "You can passively gather small amounts of mana from the atmosphere."
+    "description": "You can passively gather small amounts of mana from the atmosphere.",
+    "hidden": true
 }

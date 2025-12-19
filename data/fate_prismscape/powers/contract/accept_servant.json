@@ -58,5 +58,8 @@
                 }
             }
         ]
-    }
+    },
+    "name": "Accept Servant",
+    "description": "Form a contract with a Servant who has requested such.",
+    "hidden": true
 }

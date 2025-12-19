@@ -17,5 +17,6 @@
     },
 
     "name": "Health Regeneration",
-    "description": "Being in Spirit Form conserves energy, allowing you to slowly recover your health."
+    "description": "Being in Spirit Form conserves energy, allowing you to slowly recover your health.",
+	"hidden": true
 }

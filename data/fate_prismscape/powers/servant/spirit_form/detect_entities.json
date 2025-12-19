@@ -9,5 +9,6 @@
     },
 
     "name": "Presence Detection",
-    "description": "Locate other living beings more easily while in Spirit Form."
+    "description": "Locate other living beings more easily while in Spirit Form.",
+	"hidden": true
 }

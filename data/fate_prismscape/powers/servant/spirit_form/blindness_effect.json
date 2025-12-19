@@ -14,5 +14,8 @@
     "condition": {
         "type": "origins:power_active",
         "power": "fate_prismscape:servant/spirit_form/spirit_form"
-    }
+    },
+    "name": "Blindness Effect",
+    "description": "The world is dark when in Spirit Form.",
+    "hidden": true
 }

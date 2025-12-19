@@ -4,5 +4,6 @@
         "type": "origins:execute_command",
         "command": "function fate_prismscape:mana/setup/mana_efficiency {level: 3}"
     },
-    "name": "Decent Mana Efficiency"
+    "name": "Decent Mana Efficiency",
+    "description": "Your rate of mana consumption is about average."
 }

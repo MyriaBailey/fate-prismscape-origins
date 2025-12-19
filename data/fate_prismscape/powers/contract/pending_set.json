@@ -1,7 +1,5 @@
 {
     "type": "origins:entity_set",
-    "name": "Pending Contracts",
-    "description": "Entity set of potential contractors held.",
     "action_on_add": {
         "type": "origins:invert",
         "action": {
@@ -15,5 +13,8 @@
             "type": "origins:remove_from_entity_set",
             "set": "fate_prismscape:contract/pending_set"
         }
-    }
+    },
+    "name": "Pending Contracts",
+    "description": "An entity set containing people you wish to contract with.",
+    "hidden": true
 }

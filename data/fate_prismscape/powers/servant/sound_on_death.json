@@ -8,5 +8,6 @@
             "volume": 16,
             "pitch": 1.9
         }
-    }
+    },
+	"hidden": true
 }

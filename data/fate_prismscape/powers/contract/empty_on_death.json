@@ -40,5 +40,8 @@
             "comparison": "==",
             "compare_to": 0
         }
-    }
+    },
+    "name": "Lose contracts on Death",
+    "description": "When dying, lose all contracts unless keepInventory is on.",
+    "hidden": true
 }

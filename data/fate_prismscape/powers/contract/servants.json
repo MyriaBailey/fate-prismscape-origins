@@ -1,7 +1,5 @@
 {
     "type": "origins:entity_set",
-    "name": "Contracts",
-    "description": "Entity set of Servants held.",
     "action_on_add": {
         "type": "origins:and",
         "actions": [
@@ -39,5 +37,8 @@
                 }
             }
         ]
-    }
+    },
+    "name": "List of contracted Servants",
+    "description": "An entity set containing Servants you are contracted with.",
+    "hidden": true
 }

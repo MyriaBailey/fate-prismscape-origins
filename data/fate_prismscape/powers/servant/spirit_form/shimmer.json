@@ -26,5 +26,6 @@
         ]
     },
     "name": "Shimmer",
-    "description": "Produce a golden shimmery effect when switching forms!"
+    "description": "Produce a golden shimmery effect when switching forms!",
+	"hidden": true
 }
