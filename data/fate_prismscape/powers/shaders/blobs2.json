@@ -1,0 +1,5 @@
+{
+    "type": "origins:shader",
+    "shader": "minecraft:shaders/post/blobs2.json",
+	"hidden": true
+}
