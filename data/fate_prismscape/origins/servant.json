@@ -16,8 +16,6 @@
         "fate_prismscape:servant/mana/gain/passive",
         "fate_prismscape:servant/mana/gain/leyline",
 
-        "fate_prismscape:servant/exhaust_faster",
-
         "fate_prismscape:servant/spirit_form/spirit_form",
         "fate_prismscape:servant/spirit_form/health_recovery",
         "fate_prismscape:servant/spirit_form/no_exhaust",
@@ -30,6 +28,9 @@
         "fate_prismscape:servant/spirit_form/detect_entities",
         "fate_prismscape:servant/spirit_form/quiet",
         "fate_prismscape:servant/spirit_form/creative_flight",
+
+        "origins:fall_immunity",
+        "fate_prismscape:servant/exhaust_faster",
 
         "fate_prismscape:servant/sound_on_death"
     ],

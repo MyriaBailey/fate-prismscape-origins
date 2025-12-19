@@ -26,18 +26,9 @@
         "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:xp_points",
-                        "comparison": ">",
-                        "compare_to": 0
-                    },
-                    {
-                        "type": "origins:predicate",
-                        "predicate": "fate_prismscape:is_origin/master"
-                    }
-                ]
+                "type": "origins:xp_points",
+                "comparison": ">",
+                "compare_to": 0
             }
         }
     },
