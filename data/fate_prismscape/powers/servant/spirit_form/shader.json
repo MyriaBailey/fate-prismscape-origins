@@ -1,0 +1,9 @@
+{
+    "type": "origins:shader",
+    "shader": "minecraft:shaders/post/spirit_form.json",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "fate_prismscape:servant/spirit_form/spirit_form"
+    },
+	"hidden": true
+}
